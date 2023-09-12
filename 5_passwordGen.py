@@ -22,8 +22,12 @@ if numbers_count != 'yes':
 else:
     numbers_count = take_input()
 
-characters_count = input("Would you like to add any number? [We highly encourage this] (Yes/No) ").lower()
+characters_count = input("Would you like to add any special characters? [We highly encourage this] (Yes/No) ").lower()
 if characters_count != 'yes':
     characters_count = 0
 else:
     characters_count = take_input()
+
+
+# password generate
+
